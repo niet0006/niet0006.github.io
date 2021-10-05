@@ -1,3 +1,25 @@
 body {
     color:blue;
 }
+
+/* change color of all paragraph*/
+p{
+    color: blueviolet;
+}
+
+/* target child elements*/
+section h1 {
+    color: chartreuse;
+}
+
+ /* style a class*/
+ .secondary-heading{
+     color: darkblue;
+ }
+
+ /* style an id*/
+ #main-heading {
+     color: darkred;
+     font-weight: bold;
+ }
+}
