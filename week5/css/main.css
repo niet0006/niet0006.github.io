@@ -22,4 +22,26 @@ section h1 {
      color: darkred;
      font-weight: bold;
  }
+/* LVHA*/
+a:link{
+    color: slategrey;
+}
+
+a:visited{
+    color: steelblue;
+}
+
+a:hover{
+    color: violet;
+
+}
+
+a:active{
+    color: aqua;
+}
+
+ a[href="http//algonquincollege.com"]{
+     color: peru;
+ }
+
 }
