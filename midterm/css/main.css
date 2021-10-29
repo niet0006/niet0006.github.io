@@ -1,0 +1,23 @@
+body {
+    background-color: #aad4cf;
+    font-family:Helvetica;
+}
+/*setting up the header width*/
+.header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    
+}
+/*Position text inside the header*/
+.tittle{
+    font-size: 3rem;
+    color:white;
+    position: absolute;
+    top: 46%;
+    left: 41%;
+    
+    
+}
+
