@@ -1,41 +1,26 @@
 body {
     background-color: #aad4cf;
+    background-image:url(../images/lone-starfish-wide.jpg) ;
     font-family:Helvetica;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/*setting up the header width*/
-.header{
-    position: relative;
-    width:100%;
-    left:50% ;
-    height: auto;
-    
-}
-/*Position text inside the header*/
+
 .tittle{
-    font-size: 3rem;
-    color:white;
+    font-size: 5rem;
     position: absolute;
-    top: 46%;
-    left: 41%;
+    color:white;
+    left:40%;
+    top:34%; 
 }
-nav .border{
-    font-size: 1.6rem;
+
+li{
+    
+    list-style-type: none;
+    font-size: 3rem;
+    margin: 200px;
+    position:relative;
+    left: 10%;
     display: inline;
-    position: relative;
-    float: f;
-    margin:120px;
-    top:10%;
-    left:15%;
-    border-right-style: solid;
-    background-color: wheat;
-    }
-
-nav .nb {
-    font-size: 1.6rem;
-    display: inline-block;
-    position: relative;
-    ;
-    margin:10px;
-    top:10%;
-
+    
 }
