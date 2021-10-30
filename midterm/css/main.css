@@ -5,8 +5,8 @@ body {
 /*setting up the header width*/
 .header{
     position: relative;
-    width: 100%;
-    text-align: center;
+    width:100%;
+    left:50% ;
     height: auto;
     
 }
@@ -17,7 +17,25 @@ body {
     position: absolute;
     top: 46%;
     left: 41%;
-    
-    
 }
+nav .border{
+    font-size: 1.6rem;
+    display: inline;
+    position: relative;
+    float: f;
+    margin:120px;
+    top:10%;
+    left:15%;
+    border-right-style: solid;
+    background-color: wheat;
+    }
 
+nav .nb {
+    font-size: 1.6rem;
+    display: inline-block;
+    position: relative;
+    ;
+    margin:10px;
+    top:10%;
+
+}
