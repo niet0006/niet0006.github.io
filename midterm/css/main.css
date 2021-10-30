@@ -3,7 +3,7 @@ body {
     font-family:Helvetica;
 
 }
-
+/* Set the image header at the center*/
 .content{
     background-color: aquamarine;
     text-align: center;
@@ -11,7 +11,7 @@ body {
     width: 100%;
     
 }
-
+/* The tittle of the header*/
 .tittle{
     font-size: 3.5rem;
     position: absolute;
@@ -19,7 +19,7 @@ body {
     left:42%;
     top:18%; 
 }
-
+/* Vertical line to separate the nav bar*/
 .vl {
     border-left: 4px solid rgb(43, 43, 43);
     height: 48px;
@@ -27,6 +27,9 @@ body {
     top: 350px;
     left: 839px; 
 }
+
+/* Vertical line to separate the nav bar*/
+
 .vl2 {
     border-left: 4px solid rgb(43, 43, 43);
     height: 48px;
