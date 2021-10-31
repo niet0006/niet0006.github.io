@@ -1,11 +1,12 @@
 body {
     background-color: #aad4cf;
     font-family:Helvetica;
+    margin:0 auto
 
 }
 /* Set the image header at the center*/
 .content{
-    background-color: aquamarine;
+  
     text-align: center;
     margin:0 auto;
     width: 100%;
@@ -22,29 +23,49 @@ body {
 /* Vertical line to separate the nav bar*/
 .vl {
     border-left: 4px solid rgb(43, 43, 43);
-    height: 48px;
+    height: 50px;
     position: absolute;   
-    top: 350px;
-    left: 839px; 
+    top: 36%;
+    left: 42%; 
 }
 
 /* Vertical line to separate the nav bar*/
 
-.vl2 {
+.vltwo {
     border-left: 4px solid rgb(43, 43, 43);
     height: 48px;
     position: absolute;   
-    top: 350px;
-    left: 1200px; 
+    top: 36%;
+    left: 60%; 
 }
 
 .navigation li{
     
     list-style-type: none;
     font-size: 1.8rem;
-    padding: 120px;
+    padding: 6%;
     position:relative;
-    left: 24%;
+    left: 25%;
     display: inline;
     
+}
+article .tittletwo {
+    font-size: 2rem;
+    position: relative;
+    left:25%;
+    top:18%; 
+}
+
+
+
+.info{
+    font-size: 1.8rem;
+    float:left;
+    position:relative;
+    left: 24%;
+    }
+
+.info img{
+    width: 15%;
+    margin: 1%;
 }
