@@ -72,7 +72,7 @@ article .tittletwo, .tittlethree, .tittlefour {
 }
 
 fieldset{
-    height: 450px;
+    height: 470px;
 }
 form{
   position:relative;
@@ -97,6 +97,13 @@ form{
     height: 80px ;
     margin: 15px;
 
+}
+
+button{
+    background-color:#aad4cf;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
 }
 
 
