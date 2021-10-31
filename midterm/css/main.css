@@ -49,7 +49,7 @@ body {
     display: inline;
     
 }
-article .tittletwo, .tittlethree {
+article .tittletwo, .tittlethree, .tittlefour {
     font-size: 2rem;
     position: relative;
     left:24%;
@@ -71,4 +71,15 @@ article .tittletwo, .tittlethree {
     max-width:55% ;
 }
 
+form{
+  position:relative;
+  font-size: 1.3rem; 
+  left: 24%;
+  width:55%
+  
+}
+
+#yourname{
+    width: 50%;
+}
 
