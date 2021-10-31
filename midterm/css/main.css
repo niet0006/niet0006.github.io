@@ -71,15 +71,32 @@ article .tittletwo, .tittlethree, .tittlefour {
     max-width:55% ;
 }
 
+fieldset{
+    height: 450px;
+}
 form{
   position:relative;
   font-size: 1.3rem; 
   left: 24%;
-  width:55%
+  width:45%;
+  height: 100px;
   
 }
 
-#yourname{
-    width: 50%;
+#yourname, #youremail {
+    display:block;
+    width:97%;
+    height: 30px ;
+    margin: 15px;
+
 }
+
+#yourmessage{
+    display: block;
+    width:97%;
+    height: 80px ;
+    margin: 15px;
+
+}
+
 
