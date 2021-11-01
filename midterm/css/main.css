@@ -6,7 +6,7 @@ body {
 }
 /* Set the image header at the center*/
 .content{
-    background-color: aqua;
+    
     text-align: center;
     margin:0 auto;
     width: 100%;
@@ -17,14 +17,14 @@ body {
     font-size: 3.5rem;
     position: absolute;
     color:white;
-    left:42%;
-    top:15%;
+    left:39%;
+    top:20%;
    
     
 }
 /* Vertical line to separate the nav bar*/
 .vl {
-    background-color: blue;
+
     border-left: 4px solid rgb(43, 43, 43);
     height: 48px;
     position: absolute;   
