@@ -6,7 +6,7 @@ body {
 }
 /* Set the image header at the center*/
 .content{
-  
+    background-color: aqua;
     text-align: center;
     margin:0 auto;
     width: 100%;
@@ -18,25 +18,28 @@ body {
     position: absolute;
     color:white;
     left:42%;
-    top:18%; 
+    top:15%;
+   
+    
 }
 /* Vertical line to separate the nav bar*/
 .vl {
+    background-color: blue;
     border-left: 4px solid rgb(43, 43, 43);
-    height: 50px;
+    height: 48px;
     position: absolute;   
-    top: 36%;
+    top: 47%;
     left: 42%; 
 }
 
-/* Vertical line to separate the nav bar*/
+/* Second Vertical line to separate the nav bar*/
 
 .vltwo {
     border-left: 4px solid rgb(43, 43, 43);
     height: 48px;
     position: absolute;   
-    top: 36%;
-    left: 60%; 
+    top: 47%;
+    left: 65%; 
 }
 
 .navigation li{
@@ -73,6 +76,7 @@ article .tittletwo, .tittlethree, .tittlefour {
 
 fieldset{
     height: 470px;
+    width: 800px;
 }
 form{
   position:relative;
