@@ -6,12 +6,13 @@ body {
 }
 /*color for the central wrapper*/
 .wrapper{
+    z-index:-1;
     background-color:#D4E9E7;
     position:absolute;
-    top:50%;
-    left:16%;
-    width: 68%;
-    height: 1450px;;
+    top:44%;
+    left:16.5%;
+    width: 67%;
+    height: 1480px;;
 }
 /* centering the header image*/
 .content{
@@ -30,7 +31,7 @@ body {
    
     
 }
-
+/*list item of unordered list, position and display of the options*/
 .navigation li{
 
     text-align: center;
@@ -41,11 +42,11 @@ body {
     display: inline-block;
 }
 
-
+/*distance between the nav options*/
 .navigation li:nth-child(odd){
     padding-left: 70px;
 }
-
+/*vertical line to separate the nav options*/
 .border{
     border-right: 2px solid rgb(43, 43, 43);
     height:40px;
@@ -53,6 +54,7 @@ body {
     padding-right: 70px;
     padding-left: 70px;
         
+/*font size and positioning of main tittles*/
 }
 article .tittletwo, .tittlethree, .tittlefour {
     font-size: 2rem;
@@ -60,7 +62,7 @@ article .tittletwo, .tittlethree, .tittlefour {
     left:18%;
     top:18%; 
 }
-
+/*small image that will float with the text*/
 .info img{
     float: left;
     width: 30%;
@@ -69,19 +71,20 @@ article .tittletwo, .tittlethree, .tittlefour {
     position: relative;
   
 }
+/*text related to the small image and second ul*/
 .info, .listwo{
     font-size: 1.3rem;
     position:relative;
     left:18%;
     max-width:62% ;
 }
-
+/*Perimeter of the form*/
 fieldset{
     height: 470px;
     width: 900px;
 }
 
-/**/
+
 form{
   position:relative;
   font-size: 1.3rem; 
@@ -121,5 +124,9 @@ footer{
     left:70%;
     
 }
-
+/*navigation text color and decoration*/
+a:link{
+    text-decoration: none;
+    color: black;
+    }
 
