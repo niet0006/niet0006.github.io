@@ -118,7 +118,7 @@ button{
 }
 
 footer{
-   
+    display: inline-block;
     position: relative;
     bottom:-420px;
     left:70%;
