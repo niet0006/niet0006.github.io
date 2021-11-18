@@ -1,0 +1,59 @@
+
+/*Design for mobile*/
+
+body{
+    font-size: 1.2rem;
+}
+
+.largekitten{
+    display: block;
+}
+.smallkitten{
+    display: none;
+}
+
+.gameslist{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    border-bottom: 2px solid rgb(43, 43, 43);
+    padding: 10px;
+}
+
+
+/*For desktop devices*/
+@media screen and (min-width: 480px) and (max-width: 799px){
+    .smallkitten{
+        display:block;
+    }
+    .largekitten{
+        display: none;
+    }
+    
+}
+
+/*For desktop devices*/
+@media screen and (min-width: 800px) and (max-width: 899px){
+  
+    .gameslist{
+        list-style-type: none;
+        float:left;
+    }
+    li{
+        border-right: 2px solid rgb(43, 43, 43);
+        border-bottom: 0px;
+        }
+}
+
+    /*For desktop devices*/
+    @media screen and (min-width: 900px) and (max-width:1199px){
+    
+        
+    }
+    /*For desktop devices*/
+    @media screen and (min-width: 1200px)
+    
+        
+    }
+
