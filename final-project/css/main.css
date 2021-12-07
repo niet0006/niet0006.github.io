@@ -61,34 +61,36 @@ body{
 }
 
 
-a{
+nav a{
     text-decoration: none;
     color:#c78b07;
     display:block;
     text-align: center;
     padding: 20px;
     font-size: 18px;
+    font-weight: bold;
 }
 
-li:nth-child(1){
-    background-color:saddlebrown;
-    color:;
-    display:block;
+nav li:nth-child(1) a{
+    background-color:#c78b07;
+    color:#222222;
+    
+    
 }
 
-form{
+nav form{
     text-align: center;
     padding:12px;
 }
 
-form .search{
-  width: 90%;
+nav form .search{
+  width: 82%;
   height: 28px;
   font-size: 18px;
 }
 
 
-form button{
+nav form button{
     display: inline-block;
     height: 33px;   
     background-color:#222222 ;
@@ -96,5 +98,56 @@ form button{
 }
 
 .header-banner{
-    background-image:url(img/main-banner.jpg);
+    background-color: springgreen;
+    background-image:url("/niet0006.github.io/final-project/img/main-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 68px ;
+    padding-top: 68px ;
+    
+    
+}
+
+.header-welcome{
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:  760px) {
+
+    .header-welcome{
+    width: 706px;
+ }
+
+}
+
+.header-welcome h1{
+    font-size: 71px;
+    line-height: 98px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-welcome p{
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+.header-welcome button{
+    color:#222222;
+    background-color:#c78b07;
+    margin-top: 18px;
+    height: 96px;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-about{
+    background-color:#ffe5ad;
+    
+
 }
