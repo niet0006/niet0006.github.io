@@ -98,7 +98,7 @@ nav form button{
 }
 
 .header-banner{
-    background-color: springgreen;
+    
     background-image:url("/niet0006.github.io/final-project/img/main-banner.jpg");
     background-size: cover;
     background-position: center center;
@@ -178,26 +178,113 @@ nav form button{
 .section-services h2{
     font-size: 38px;
     font-weight: bold;
-    padding-top:29px ;
-    padding-bottom:27px ;
+    padding-top:29px;
+    padding-bottom:27px;
+    padding-left: 14px;
 }
 
 .section-services h3{
+    padding-top: 30px;
+    padding-bottom: 18px;
     font-size: 28px;
+    font-weight: bold;
+    padding-left: 14px;
 }
 
 .section-services p{
     font-size: 14px;
     line-height: 21px;
+    padding-left: 14px;
+    
+}
+
+
+.services{
+    background-color: #ffe5ad;
+    
 }
 
 .section-services img{
     width: 100%;
 }
 
-.services{
-    background-color: #ffe5ad;
+.section-services button{
+    display: inline-block;
+    height: 94px;   
+    background-color:#222222 ;
+    color: white;
+    font-size: 21px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    padding:20px;
 }
 
+/*-----------------Vision-----------------*/
+.section-vision{
+    
+    background-image:url("/niet0006.github.io/final-project/img/vision.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-bottom: 28px;
+    padding-left: 13px;
+    padding-top: 20px ;
+}
 
+.section-vision h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top:29px ;
+    padding-bottom:27px ;
+    color: white;
+}
 
+.section-vision p{
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+.section-vision button{
+    display: inline-block;
+    height: 94px;   
+    background-color:#192a44 ;
+    border:solid 2px #c78b07 ;
+    color: white;
+    font-size: 21px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+/*-------------Team--------------------*/
+
+.services{
+    background-color: #ffe5ad;
+    
+}
+.section-team h2{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top:25px;
+    padding-bottom:27px;
+    padding-left: 14px;
+}
+    
+.section-team h3{
+    padding-top: 30px;
+    padding-bottom: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+    
+.section-services p{
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 14px;
+}
