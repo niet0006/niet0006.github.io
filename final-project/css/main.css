@@ -148,6 +148,56 @@ nav form button{
 
 .section-about{
     background-color:#ffe5ad;
-    
-
+    padding:12px;
 }
+.section-about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.section-info h2{
+    font-size: 48px;
+    padding-bottom: 16px ;
+    padding-top: 37px ;
+    font-weight: bold;
+}
+
+.section-info p{
+    font-size: 14px;
+    line-height: 21px;
+    margin: 15px 0;
+}
+
+/*----------------Services Section------------------*/
+.section-services{
+    padding:13px;
+}
+
+.section-services h2{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top:29px ;
+    padding-bottom:27px ;
+}
+
+.section-services h3{
+    font-size: 28px;
+}
+
+.section-services p{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.section-services img{
+    width: 100%;
+}
+
+.services{
+    background-color: #ffe5ad;
+}
+
+
+
