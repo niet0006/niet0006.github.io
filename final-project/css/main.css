@@ -406,9 +406,10 @@ footer a{
 }
 
 @media only screen and (min-width:  1200px) {
- 
+/*---------------Nav Bar-------------*/ 
 nav{
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-around;
     align-items:center;
     background-color: blueviolet;
@@ -421,6 +422,10 @@ nav ul{
     background-color: #a10f0f;
     padding-right: 80px;
     align-items: center;
+}
+
+nav li {
+    flex-basis:20%;
 }
 
 .menu-logo {
@@ -564,30 +569,74 @@ nav ul{
 
 /*------------Team---------------------*/
 
-.team-container{
+.section-team{
     
+    margin:0 auto;
     width: 1200px;
+}
+
+.team-container{
     display: flex;
-    flex-direction: row;
-    align-items: center  ;
-    justify-content: center;
+    flex-wrap:wrap;
+    width: 1200px;
+  
+    
 }
 
 .team-container .img.ceo{
- flex-basis: 150%;   
+
+    flex-basis:600px ;
 }
 
 .team-container .team.ceo{
-    flex-grow:150%;    
-   }
-   
-   .team-container .img.cfo{
-    flex-basis: 150%;   
-   }
-   
-   .team-container .team.cfo{
-       flex-grow:25%;    
-      }
+    flex-basis: 600px;
+}
+
+.team-container .img.cfo{
+    flex-basis:600px ;
+    order:2;
+}
+
+.team-container .team.cfo{
+    flex-basis: 600px;
+}
+
+/*-------------Contact us------------*/
+
+.section-contact{
+    margin:0 auto;
+    width: 1200px;
+}
+
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1200px;
+    background-color: lawngreen;
+    align-items: baseline;
+}
+
+.contact-container form{
+    flex-basis: 575px;
+    order: -1;
+}
+
+.contact-container .section-hours{
+    flex-basis: 1200px;
+    order: 2;
+}
+
+.contact-container .contact-location{
+    flex-basis: 575px;
+    order:1;
+}
+
+.contact-container .contact-location iframe{
+    height: 450px;
+
+}
 
 
 }
