@@ -484,20 +484,26 @@ nav li a{
 
 }
 /*-----------Services------------------*/
+.section-services{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 .section-maincontainer{
     margin: 0 auto; 
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-content: flex-start;
-    align-items: center;
-}
-
-.section-services h2 {
-
-    padding-left: 16px;
     
 }
+
+.section-services .section-maincontainer h2 {
+    
+    display: block;
+    justify-content: start;
+    }
 
 .section-maincontainer h3 {
     font-size: 36px;
