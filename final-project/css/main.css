@@ -171,6 +171,9 @@ nav form button{
 }
 
 /*----------------Services Section------------------*/
+.team-container{
+    padding: 13px;
+}
 .section-services{
     padding:13px;
 }
@@ -263,28 +266,140 @@ nav form button{
 
 /*-------------Team--------------------*/
 
-.services{
+.ceo, .cfo{
     background-color: #ffe5ad;
     
 }
+
+.section-team img{
+    width: 100%;
+}
+
+.img .ceo img{
+margin-top: 44px;
+background-color: white;
+}
 .section-team h2{
-    font-size: 38px;
+    font-size:38px;
     font-weight: bold;
     padding-top:25px;
     padding-bottom:27px;
-    padding-left: 14px;
+    padding-left:14px;
 }
     
 .section-team h3{
-    padding-top: 30px;
-    padding-bottom: 18px;
+    padding-top:23px;
+    padding-bottom:12px;
     font-size: 28px;
     font-weight: bold;
     padding-left: 14px;
 }
+
+.section-team h4{
+   
+    padding-bottom:4px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: solid 2px #c78b07 ;
+    margin-left: 14px;
+    margin-right: 14px;
+}
     
-.section-services p{
+.section-team p{
     font-size: 14px;
     line-height: 21px;
     padding-left: 14px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    margin-bottom: 10px;
+}
+
+/*--------------Contact-----------------*/
+.contact-container h2{
+    font-size:38px;
+    font-weight: bold;
+    padding-top:70px;
+    padding-bottom:27px;
+    padding-left:14px;
+}
+.contact-container h3{
+    padding-top:11px;
+    padding-bottom:18px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+.contact-container .contact label{
+    display: block;
+    padding-left:14px ;
+}
+.contact-container .contact input{
+    display: block;
+    width: 95%;
+    margin:7px 14px;
+    padding-top: 10px;
+}
+#message
+{
+    display: block;
+    width: 95%;
+    margin: 14px;
+    height: 148px;
+}
+
+.contact-container button{
+    margin-left: 14px;
+    font-size: 18px;
+    background-color:#222222 ;
+    color:#c78b07 ;
+    padding:4px;
+}
+
+
+
+table{
+    width: 97%;
+    margin: 0 auto;
+    border: solid 1px #222222 ;
+}
+
+section .section-hours h2{
+    font-size:38px;
+    padding-top: 27px;
+
+}
+
+
+th{
+    padding: 18px;
+    background-color: #ffe5ad;
+    border: solid 1px #222222 ;
+}
+
+td{
+    text-align: left;
+    padding: 18px;
+    border: solid 1px #222222 ;
+}
+
+.contact-location h2 {
+    padding-top: 28px;
+    padding-bottom:10px ;
+}
+
+  iframe{
+    padding: 18px 14px;
+    width: 97%;
+}
+
+footer{
+    background-color: #222222;
+    color: #c78b07;
+    padding: 17px;
+    padding-top: 15px;
+}
+
+footer a{
+    color: #c78b07;
 }
