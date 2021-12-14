@@ -48,7 +48,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
-.header-menu{
+header{
     background-color: #222222;
     width: 100%;
     margin:0 auto;
@@ -99,7 +99,7 @@ nav form button{
 
 .header-banner{
     
-    background-image:url("/niet0006.github.io/final-project/img/main-banner.jpg");
+    background-image:url("../img/main-banner.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ nav form button{
     font-weight: bold;
     padding-top:29px;
     padding-bottom:27px;
-    padding-left: 14px;
+    
 }
 
 .section-services h3{
@@ -227,7 +227,7 @@ nav form button{
 /*-----------------Vision-----------------*/
 .section-vision{
     
-    background-image:url("/niet0006.github.io/final-project/img/vision.jpg");
+    background-image:url("../img/vision.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -409,25 +409,30 @@ footer a{
 /*---------------Nav Bar-------------*/ 
 nav{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
     align-items:center;
-    background-color: blueviolet;
-    
+    width: 1200px;
+    margin: 0 auto;
 }
+
 
 nav ul{
     display: flex;
-    justify-content: space-between;
-    background-color: #a10f0f;
-    padding-right: 80px;
+    
     align-items: center;
 }
 
-nav li {
-    flex-basis:20%;
+.menu-container{
+    flex-grow: 1;
 }
 
+
+nav li {
+    width:100%;
+}
+
+nav li a{
+    display: block;
+}
 .menu-logo {
 
     background-color: #222222;
@@ -482,7 +487,6 @@ nav li {
     margin: 0 auto; 
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     align-content: flex-start;
 }
@@ -490,6 +494,8 @@ nav li {
 .section-maincontainer h2 {
     font-size: 16px;
     line-height: 24px;
+    padding-left: 0;
+    
 }
 
 .section-maincontainer h3 {
@@ -505,7 +511,7 @@ nav li {
     width:1200px;
     display:grid;
     grid-template-columns:repeat(6,1fr);
-    grid-template-rows:repeat(2,1fr);
+    
     background-color: rgb(245, 243, 243);
     grid-gap: 10px;
     
@@ -614,12 +620,12 @@ nav li {
     flex-wrap: wrap;
     flex-direction: row;
     width: 1200px;
-    background-color: lawngreen;
     align-items: baseline;
+    gap:10px;
 }
 
 .contact-container form{
-    flex-basis: 575px;
+    flex-basis: 580px;
     order: -1;
 }
 
@@ -633,10 +639,17 @@ nav li {
     order:1;
 }
 
+.section-hours{
+    margin-bottom: 20px;
+}
+
 .contact-container .contact-location iframe{
     height: 450px;
 
 }
+
+/*--------------Footer------------*/
+
 
 
 }
