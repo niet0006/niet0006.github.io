@@ -179,7 +179,7 @@ nav form button{
     padding:13px;
 }
 
-.section-services .section-maincontainer h2{
+.section-services  h2{
     font-size: 38px;
     font-weight: bold;
     padding-top:29px;
@@ -316,11 +316,11 @@ background-color: white;
 }
 
 /*--------------Contact-----------------*/
-.contact-container h2{
+.section-contact h2{
     font-size:38px;
     font-weight: bold;
-    padding-top:70px;
-    padding-bottom:27px;
+    padding-top:50px;
+    padding-bottom:10px;
     padding-left:14px;
 }
 .contact-container h3{
@@ -412,17 +412,18 @@ nav{
     align-items:center;
     width: 1200px;
     margin: 0 auto;
+    
 }
 
 
 nav ul{
     display: flex;
-    
     align-items: center;
 }
 
 .menu-container{
     flex-grow: 1;
+    
 }
 
 
@@ -431,7 +432,7 @@ nav li {
 }
 
 nav li a{
-    display: block;
+    display:inline-block;
 }
 .menu-logo {
 
@@ -489,12 +490,12 @@ nav li a{
     justify-content: center;
     flex-direction: column;
     align-content: flex-start;
+    align-items: center;
 }
 
-.section-maincontainer h2 {
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 0;
+.section-services h2 {
+
+    padding-left: 16px;
     
 }
 
@@ -527,6 +528,7 @@ nav li a{
 
 .section-services .services.digital button{ 
     width: 95%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -537,6 +539,7 @@ nav li a{
 
 .section-services .services.marketing button{ 
     width: 95%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-services .services.video{
@@ -546,6 +549,7 @@ nav li a{
 
 .section-services .services.video button{
     width: 93%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-services .services.webdevelop{
@@ -555,6 +559,7 @@ nav li a{
 
 .section-services .services.webdevelop button{
     width: 93%;
+    font-family: 'Open Sans', sans-serif;
 }
 .section-services .services.print{
     grid-column:5/7;
@@ -563,17 +568,27 @@ nav li a{
 
 .section-services .services.print button{
     width: 93%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*--------------Vision-------------------*/
 
+.section-vision h2{
+    font-size: 36px;
+}
+
 .vision-container{
     width: 1200px;
     margin: 0 auto;
-
+    
 }
 
 /*------------Team---------------------*/
+
+.section-team h2{
+    font-size:54px;
+}
+
 
 .section-team{
     
@@ -609,11 +624,18 @@ nav li a{
 
 /*-------------Contact us------------*/
 
+.section-contact h2{
+    font-size:54px;
+}
+
 .section-contact{
     margin:0 auto;
     width: 1200px;
 }
 
+.contact-container button{
+    font-size: 24px;
+}
 
 .contact-container{
     display: flex;
@@ -650,6 +672,15 @@ nav li a{
 
 /*--------------Footer------------*/
 
+.footer-container{
+    background-color: #222222;
+}
+
+.footer-wrap{
+    background-color: lawngreen;
+   width: 1200px; 
+   margin: 0 auto;
+}
 
 
 }
