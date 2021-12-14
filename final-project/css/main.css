@@ -68,7 +68,7 @@ nav a{
     text-align: center;
     padding: 20px;
     font-size: 18px;
-    font-weight: bold;
+    
 }
 
 nav li:nth-child(1) a{
@@ -438,7 +438,8 @@ nav li a{
 
     background-color: #222222;
     flex-basis: 5%;
-    padding:10px;
+    padding:15px;
+    margin-right: 64px;
 }
 
 .header-welcome{
